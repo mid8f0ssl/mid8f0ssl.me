@@ -4,9 +4,9 @@
 module.exports = {
   siteMetadata: {
     title: `Middle Infinity Fossil`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://mid8f0ssl.me`
   },
-  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
@@ -25,5 +25,12 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
+  }, {
+    resolve: `gatsby-plugin-google-gtag`,
+    options: {
+      // You can add multiple tracking ids and a pageview event will be fired for all of them.
+      trackingIds: [
+        "G-GR1CFSRDD1"]
+    }
   }]
 };
