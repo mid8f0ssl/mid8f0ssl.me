@@ -12,7 +12,11 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "npm run lint -- --fix",
+    "precommit": "npm run pretify && npm run lint:fix",
+    "pretify": "prettier --write \"src/**/*.{js,jsx,json,md}\""
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
@@ -23,6 +27,7 @@
     "gatsby-plugin-manifest": "^5.12.1",
     "gatsby-plugin-mdx": "^5.12.1",
     "gatsby-plugin-postcss": "^6.12.0",
+    "gatsby-plugin-react-helmet": "^6.12.0",
     "gatsby-plugin-sharp": "^5.12.1",
     "gatsby-plugin-sitemap": "^6.12.1",
     "gatsby-source-filesystem": "^5.12.0",
@@ -32,6 +37,22 @@
     "postcss": "^8.4.31",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.11.0",
+    "shiki": "^0.14.5",
     "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.2.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "^8.0.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6"
   }
 }
