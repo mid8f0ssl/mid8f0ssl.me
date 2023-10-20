@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <>
         <Navbar />
         <main
-            style={{fomtStyle: 'normal', fontFamily: 'Public Sans'}}
+            style={{fontStyle: 'normal', fontFamily: 'Public Sans'}}
             className="flex min-h-[100svh] flex-col items-center justify-center bg-[#ffffff] px-5 py-20 text-center font-bold">
               {children}
         </main>

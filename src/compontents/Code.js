@@ -1,4 +1,4 @@
-import { highlight } from '@/lib/shiki'
+import { highlight } from '@/lib/shiki';
 import PropTypes from "prop-types";
 
 const Code =  ({ code }) => {
@@ -17,5 +17,5 @@ Code.propTypes = {
     children: PropTypes.string.isRequired
 }
 
-export default Code
+export default Code;
 

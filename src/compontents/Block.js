@@ -1,6 +1,6 @@
-import React from 'react'
-import BlockWrapper from './BlockWrapper'
+import React from 'react';
 import PropTypes from "prop-types";
+import BlockWrapper from './BlockWrapper';
 
 
 const Block = ({name, children, }) => {
@@ -17,3 +17,6 @@ Block.propTypes = {
     name: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired
 }
+
+
+export default Block;

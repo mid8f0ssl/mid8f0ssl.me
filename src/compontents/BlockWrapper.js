@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import PropTypes from "prop-types";
 
 
@@ -15,4 +15,4 @@ BlockWrapper.propTypes = {
 }
 
 
-export default BlockWrapper
+export default BlockWrapper;
