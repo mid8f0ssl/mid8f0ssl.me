@@ -99,5 +99,14 @@ module.exports = {
         trackingIds: ['G-GR1CFSRDD1'],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `public sans`
+        ],
+        display: 'swap'
+      }
+    }
   ],
 }
