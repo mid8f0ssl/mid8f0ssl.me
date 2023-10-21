@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        'lavender': '#a388ee',
+        'paleviolet': '#D4A1ff'
+      },
       animation: {
         marquee: 'marquee 5s linear infinite',
         marquee2: 'marquee2 5s linear infinite',
