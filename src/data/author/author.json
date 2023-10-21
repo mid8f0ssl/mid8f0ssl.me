@@ -5,16 +5,7 @@
   "displayName": "Dmytro \"@mid8f0ssl\" Podoprosvietov",
   "summary": "Hi there! I'm a software engineer who is interested in web development, high-load systems, data analysis, and a lot of other cool things, IT and open-source enthusiast. Today I’m focusing on Python and Golang development as a platform engineer, focusing on AWS tech stack and serverless solutions. On the other side, I'm looking for new great stuff from the JavaScript world(ReactJS, NodeJs, GatsbyJS, etc). Generally, I was starting my “professional” life as a dude that created HTML templates with tables and images. But today, I'm a dedicated solution engineer, platform architect, and product technical leader on our teams. Now I'm ready for new challenges such as build an IT community in my hometown Zaporizhzhia (meetups, user groups, conferences), co-organizer of the Zaporizhzian Python User Group community and ICT cluster.",
   "fullName": "Dmytro Podoprosvietov aka `Middle Infinity Fossil`",
-  "roles": [
-    "Software Engineer",
-    "Geek",
-    "Hacker",
-    "Philosopher",
-    "Photographer",
-    "Blogger",
-    "Dad",
-    "Gamer"
-  ],
+  "roles": ["Software Engineer", "Geek", "Hacker", "Philosopher", "Dad"],
   "social": {
     "github": "https://github.com/mid8f0ssl",
     "instagram": "https://instagram.com/mid8f0ssl",
