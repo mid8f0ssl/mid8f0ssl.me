@@ -8,8 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'lavender': '#a388ee',
-        'paleviolet': '#D4A1ff'
+        'nb-lavender': '#a388ee',
+        'nb-paleviolet': '#D4A1ff',
+        'nb-crystal': '#A7DBD8',
+        'nb-skyblue':'#87CEEB'
       },
       animation: {
         marquee: 'marquee 5s linear infinite',

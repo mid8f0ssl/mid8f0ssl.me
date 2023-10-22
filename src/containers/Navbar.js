@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <nav className="fixed left-0 top-0 z-10 mx-auto flex h-20 w-full items-center border-b-4 border-black bg-white px-5 m500:h-16">
       <Link to={'/'}>
-        <img className="h-40 pr-4" src={logo} alt="My Logo" />
+        <img className="h-36 pr-4" src={logo} alt="My Logo" />
       </Link>
       <div className="mx-auto flex w-[1300px] max-w-full items-center justify-between">
         <Link className="text-3xl font-bold m500:text-xl" to={'/'}>
