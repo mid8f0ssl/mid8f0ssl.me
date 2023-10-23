@@ -14,36 +14,12 @@
     "upwork": "https://www.upwork.com/freelancers/~012830e7a07f9ff38d"
   },
   "services": [
-    {
-      "id": "software",
-      "title": "Software Development",
-      "description": "A full-stack software engineer with over 14 years of experience. I have maintained, developed and launched multiple projects. Focusing on the secure, scalable and, potentially, serverless applications."
-    },
-    {
-      "id": "prototyping",
-      "title": "Rapid Prototyping",
-      "description": "I do really focus on building secure and quality MVP first, instead of creating huge all-in-one application."
-    },
-    {
-      "id": "teamlead",
-      "title": "Technical Team Leadership",
-      "description": "I'm a hands-on technical leader who has built software products from the ground up, run large engineering teams, and provided guidance at the executive and board level."
-    },
-    {
-      "id": "devops",
-      "title": "DevOps Engineering",
-      "description": "I follow combination of cultural philosophies, and practices to help businesses automate their end-to-end software delivery pipeline with continuous integration, development, and collaboration, enabling rapid onboarding of applications."
-    },
-    {
-      "id": "security",
-      "title": "Security Review",
-      "description": "Let me try to be your trusted compliance and risk program advisor, and assist to Detect and respond to threats on your behalf."
-    },
-    {
-      "id": "product",
-      "title": "Technical Product Management",
-      "description": "I'm motivated by product success and business growth, not technology for technology's sake."
-    }
+    {"id":  "software", "title":  "Software Engineering", "description":  "A full-stack software engineer with over 14 years of experience. I have maintained, developed and launched multiple projects. Focusing on the secure, scalable and, potentially, serverless applications."},
+    {"id":  "prototyping", "title":  "Rapid Prototyping", "description":  "I do really focus on building secure and quality MVP first, instead of creating huge all-in-one application."},
+    {"id":  "teamlead", "title":  "Technical Team Leadership", "description":  "I'm a hands-on technical leader who has built software products from the ground up, run large engineering teams, and provided guidance at the executive and board level."},
+    {"id":  "devops", "title":  "DevOps Engineering", "description":  "I follow combination of cultural philosophies, and practices to help businesses automate their end-to-end software delivery pipeline with continuous integration, development, and collaboration, enabling rapid onboarding of applications."},
+    {"id":  "security", "title":  "Security Review", "description":  "Let me try to be your trusted compliance and risk program advisor, and assist to Detect and respond to threats on your behalf."},
+    {"id":  "product", "title":  "Technical Product Management", "description":  "I'm motivated by product success and business growth, not technology for technology's sake."}
   ],
   "current": {
     "workplace": {
