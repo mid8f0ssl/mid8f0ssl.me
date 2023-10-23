@@ -35,6 +35,7 @@
     "gatsby-transformer-json": "^5.12.0",
     "gatsby-transformer-remark": "^6.12.1",
     "gatsby-transformer-sharp": "^5.12.1",
+    "lodash": "^4.17.21",
     "postcss": "^8.4.31",
     "postcss-preset-env": "^9.2.0",
     "prop-types": "^15.8.1",
