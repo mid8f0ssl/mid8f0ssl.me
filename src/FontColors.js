@@ -1,4 +1,4 @@
-export default [
+export const regularTextColors = [
   'text-blue-800',
   'text-lime-800',
   'text-red-800',

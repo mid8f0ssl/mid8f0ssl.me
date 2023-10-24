@@ -4,7 +4,7 @@ import _ from 'lodash'
 import Block from '../components/Block'
 import TimelineListContainer from '../components/TimelineListContainer'
 import TimelineItemContainer from '../components/TimelineItemContainer'
-import fontColors from '../fontColors'
+import { regularTextColors } from '../FontColors'
 
 const AuthorServices = () => {
   const { authorJson } = useStaticQuery(graphql`
@@ -18,7 +18,10 @@ const AuthorServices = () => {
       }
     }
   `)
-  const randomFontColors = _.sampleSize(fontColors, authorJson.services.length)
+  const randomFontColors = _.sampleSize(
+    regularTextColors,
+    authorJson.services.length
+  )
   return (
     <Block name={'services'} extraClassNames={'bg-nb-skyblue'}>
       <TimelineListContainer
