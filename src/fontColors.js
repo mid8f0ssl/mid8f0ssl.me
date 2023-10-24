@@ -1,10 +1,10 @@
 export default [
-  'text-blue-900',
-  'text-lime-900',
-  'text-red-900',
-  'text-green-900',
-  'text-cyan-900',
-  'text-pink-900',
-  'text-sky-900',
-  'text-rose-900',
+  'text-blue-800',
+  'text-lime-800',
+  'text-red-800',
+  'text-green-800',
+  'text-cyan-800',
+  'text-pink-800',
+  'text-sky-800',
+  'text-rose-800',
 ]

@@ -25,21 +25,30 @@ const AuthorServices = () => {
         title={'My Services'}
         tagline={'So, what can I do for you?'}
       >
-        {authorJson.services.map((service) => (
-          <TimelineItemContainer key={service.id}>
-            <h4
-              className={`mb-1 text-2xl md:text-5xl ${
-                randomFontColors[authorJson.services.indexOf(service)]
-              } heading_font font-bold`}
+        {authorJson.services.map((service) => {
+          return (
+            <TimelineItemContainer
+              extraClasses={
+                authorJson.services.indexOf(service) % 2
+                  ? 'flex-row-reverse'
+                  : ''
+              }
+              key={service.id}
             >
-              {service.title}
-            </h4>
-            <br />
-            <div className="text-900 flex flex-col gap-4 text-sm font-normal leading-snug text-opacity-100 md:text-base">
-              <span className="mb-2">{service.description}</span>
-            </div>
-          </TimelineItemContainer>
-        ))}
+              <h4
+                className={`mb-1 text-2xl font-bold md:text-5xl ${
+                  randomFontColors[authorJson.services.indexOf(service)]
+                }`}
+              >
+                {service.title}
+              </h4>
+              <br />
+              <div className="text-900 flex flex-col gap-4 text-sm font-normal leading-snug text-opacity-100 md:text-base">
+                <span className="mb-2">{service.description}</span>
+              </div>
+            </TimelineItemContainer>
+          )
+        })}
       </TimelineListContainer>
     </Block>
   )
