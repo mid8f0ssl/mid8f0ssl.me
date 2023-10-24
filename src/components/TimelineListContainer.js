@@ -1,33 +1,37 @@
-import React from "react"
-import propTypes from "prop-types"
-
+import React from 'react'
+import propTypes from 'prop-types'
 
 const TimelineListContainer = ({ title, tagline, children }) => {
-    return (
-        <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
-            <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-                <h1 className="text-4xl md:text-5xl font-bold text-black heading_font">{title}</h1>
-                <span className="text-gray-900 text-xl lg:text-2xl mt-4 mb-6 md:mb-8">{tagline}</span>
-            </div>
-            <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
-                <div className="container mx-auto w-full h-full">
-                    <div className="relative wrap overflow-hidden p-10 h-full">
-                        <div className="border-2-2 absolute h-full border-green-50 border-8 opacity-0"></div>
-                        {children}
-                    </div>
-                </div>
-            </div>
+  return (
+    <div className="container mx-auto my-12 flex flex-col items-start md:my-24 md:flex-row">
+      <div className="sticky mt-2 flex w-full flex-col px-8 md:top-36 md:mt-12 lg:w-1/3">
+        <h1 className="heading_font text-4xl font-bold text-black md:text-5xl">
+          {title}
+        </h1>
+        <span className="mb-6 mt-4 text-xl text-gray-900 md:mb-8 lg:text-2xl">
+          {tagline}
+        </span>
+      </div>
+      <div className="sticky ml-0 md:ml-12 lg:w-2/3">
+        <div className="container mx-auto h-full w-full">
+          <div className="wrap relative h-full overflow-hidden p-10">
+            <div className="border-2-2 absolute h-full border-8 border-green-50 opacity-0"></div>
+            {children}
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 TimelineListContainer.propTypes = {
-    children: propTypes.node.isRequired,
-    title: propTypes.string.isRequired
+  children: propTypes.node.isRequired,
+  title: propTypes.string.isRequired,
+  tagline: propTypes.string
 }
 
 TimelineListContainer.defaultProps = {
-    tagline: '',
+  tagline: ''
 }
 
 export default TimelineListContainer
