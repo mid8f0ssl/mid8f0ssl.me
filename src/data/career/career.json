@@ -1,0 +1,279 @@
+[
+  {
+    "id": "sprinterra",
+    "organization": "Sprinterra",
+    "url": "https://www.sprinterra.com/",
+    "startDate": "May 2019",
+    "endDate": "Current",
+    "position": [
+      "Senior Software Engineer",
+      "Software Architect",
+      "Technical Product Manager"
+    ],
+    "technologies": [
+      "python",
+      "django",
+      "django rest framework",
+      "mysql",
+      "mongodb",
+      "celery",
+      "twilio",
+      "firebase",
+      "aws",
+      "scikit-learn",
+      "rabbitmq",
+      "reactjs",
+      "docker"
+    ],
+    "responsibilities": [
+      "Take a part in all phases of Software Development Life Cycle including requirements gathering, designing, implementing, testing, and maintenance support",
+      "Manage the planning of work tasks, setting clear objectives, recognizing issues, monitoring progress, and reporting status of work tasks to the project manager",
+      "Design and implemented scalable, secure cloud architecture",
+      "Investigate and resolve performance and scalability issues",
+      "Follow HIPAA compliance"
+    ],
+    "challenges": [],
+    "description": ""
+  },
+  {
+    "id": "hypertrack",
+    "organization": "HyperTrack",
+    "url": "https://hypertrack.com/",
+    "startDate": "Jul 2019",
+    "endDate": "Jan 2020",
+    "position": ["Senior Software Engineer"],
+    "technologies": [
+      "python",
+      "postgresql",
+      "aws dynamodb",
+      "aws kinesis",
+      "aws cloud formation",
+      "aws ecs",
+      "serverless",
+      "reactjs",
+      "leaflet",
+      "reactnative",
+      "terraform"
+    ],
+    "responsibilities": [
+      "Full Stack Development - backend/frontend(web)/mobile(RN SDK/Views)",
+      "Application code design and development",
+      "Issues troubleshooting and resolution",
+      "Investigate and resolve performance and scalability issues",
+      "Customer support/coaching"
+    ],
+    "description": "Location tracking and intelligence as a service based on distributes serverless AWS architecture"
+  },
+  {
+    "id": "simplelife",
+    "organization": "Simple Life",
+    "url": "https://www.simplelife.com//",
+    "startDate": "Apr 2017",
+    "endDate": "Aug 2019",
+    "position": ["Senior Software Engineer"],
+    "technologies": [
+      "python",
+      "django",
+      "django rest framework",
+      "postgresql",
+      "aws dynamodb",
+      "rabbitmq",
+      "celery",
+      "splunk",
+      "ansible",
+      "docker",
+      "redis",
+      "jenkins",
+      "twilio",
+      "javascript",
+      "vuejs"
+    ],
+    "responsibilities": [
+      "Full Stack Development - backend/frontend(web)",
+      "Application code design and development",
+      "Issues troubleshooting and resolution",
+      "Investigate and resolve performance and scalability issues"
+    ],
+    "description": "Simple Life is a California-based insurance platform on a mission to make the insurance enrollment and education process understandable once and for all. We have thrown out the old world approach and have streamlined the flow from the ground up. The Simple Life experience was built with the individual consumer in mind through every step of the process. It is the first service to harmonize and create synergy between the individual, HR, insurance carrier, and insurance broker. Enjoy a new way of purchasing and managing one of the important cornerstones in your life, insurance."
+  },
+  {
+    "id": "gsngames",
+    "organization": "GSN Games",
+    "url": "https://gsngames.com/",
+    "startDate": "Mar 2015",
+    "endDate": "Feb 2017",
+    "position": [
+      "Senior Software Engineer",
+      "DevOps Engineer",
+      "Platform Architect"
+    ],
+    "technologies": [
+      "python",
+      "django",
+      "django rest framework",
+      "mysql",
+      "aws dynamodb",
+      "aws kinesis",
+      "rabbitmq",
+      "celery",
+      "splunk",
+      "ansible",
+      "docker",
+      "redis",
+      "jenkins",
+      "locust"
+    ],
+    "responsibilities": [
+      "Application code design and development for all social casino gaming apps features",
+      "Development of the core features like GameValidation, AB Tests Framework, Segmentation, Authorization, and Authentication",
+      "Release engineering",
+      "Issues troubleshooting and resolution",
+      "Investigate and resolve performance and scalability issues",
+      "BI engineering infrastructure tools maintenance",
+      "Engineering management"
+    ],
+    "description": "Step into Sparcade and play your favorite games like never before! Practice for free until you’re ready, then take on the competition to win REAL money. You’ll always be matched with opponents at your skill level."
+  },
+  {
+    "id": "idlegames",
+    "organization": "Idle Games, Inc",
+    "url": "https://www.linkedin.com/company/idle-games/about/",
+    "startDate": "Oct 2013",
+    "endDate": "Mar 2015",
+    "position": ["Senior Software", "DevOps Engineer"],
+    "technologies": [
+      "python",
+      "django",
+      "django rest framework",
+      "mysql",
+      "aws dynamodb",
+      "mongodb",
+      "c++",
+      "rabbitmq",
+      "celery",
+      "splunk",
+      "ansible",
+      "fabric",
+      "puppet",
+      "redis",
+      "jenkins",
+      "sekuli.script"
+    ],
+    "responsibilities": [
+      "Application code design and development for all social casino gaming apps features",
+      "Release engineering",
+      "Maintenance and development of back-office features to support product team and applications",
+      "Assist with deployment and release of engineering codebases",
+      "Issues troubleshooting and resolution",
+      "Investigate and resolve performance and scalability issues",
+      "BI engineering infrastructure tools maintenance",
+      "Actively develop unit and functional tests"
+    ],
+    "description": " I was a part of the talented Idle Gaming Team and doing casino mobile games in a highly distributed server environment based on Amazon Web Services. My responsibility was not just backend platform development, but also to help the DevOps team to keep everything operational. Hands-on development of scalable, highly performant, and distributed backend external and internal web services based on the mixture of Linux, Python, Django, Celery, Memcached, RabbitMQ, MySQL, MongoDB, and a variety of AWS services including EC2, S3, and others."
+  },
+  {
+    "id": "mahabis",
+    "organization": "mahabis",
+    "url": "https://mahabis.com",
+    "startDate": "Mar 2014",
+    "endDate": "May 2015",
+    "position": ["Senior Software", "DevOps Engineer"],
+    "technologies": [
+      "python",
+      "flask",
+      "postgresql",
+      "aws redshift",
+      "websockets",
+      "aws sqs",
+      "celery",
+      "papertail",
+      "docker",
+      "ansible",
+      "redis",
+      "circleci",
+      "sqlalchemy"
+    ],
+    "responsibilities": [
+      "Application architecture and implementation",
+      "Deployment and scalability",
+      "Building monitoring tools and alerts",
+      "Service integration: accounting, storage, ads etc",
+      "Maintenance and development of back-office features to support product team and applications",
+      "Business analytics implementation - rules and sensors"
+    ],
+    "description": "Various background projects to assist with predictions, business analytics, monitoring, and velocity. Help to automate integrations between helpdesk, warehouse, store, and CRM."
+  },
+  {
+    "id": "trafford",
+    "organization": "Trafford Group",
+    "url": "https://www.linkedin.com/company/trafford-group",
+    "startDate": "Aug 2010",
+    "endDate": "Dec 2013",
+    "position": ["Software Engineer", "Researcher"],
+    "technologies": [
+      "php",
+      "codeignitor",
+      "zendframework",
+      "simphony",
+      "websockets",
+      "mysql",
+      "javascript",
+      "aws ec2",
+      "sphinxsearch",
+      "apache solr",
+      "lucene"
+    ],
+    "responsibilities": [
+      "Build and maintain a platform to edit, update, and create new cases of the\nsoftware application, spread across three main sites and satellites. the idea is to\nhelp editors to work with SEO content for different locations and languages",
+      "Building from scratch coupon platform that should be an extended service which\ncan be integrated into any of the sites above",
+      "Build, deploy and maintain application infrastructure",
+      "Front-end development and integration",
+      "Release Engineering"
+    ],
+    "description": ""
+  },
+  {
+    "id": "intellimedia",
+    "organization": "Intellimedia, Inc",
+    "url": "https://www.intellimedia.ca/",
+    "startDate": "Jun 2008",
+    "endDate": "Oct 2012",
+    "position": ["Software Engineer"],
+    "technologies": [
+      "php",
+      "javascript",
+      "mysql",
+      "mssql",
+      "c#",
+      "extjs",
+      "sencha touch",
+      "moodle",
+      "flash",
+      "mootools"
+    ],
+    "responsibilities": [
+      "Design and implementation of the application architecture",
+      "Make Integration with 3rd party services",
+      "Take part in the development of the core features and UX/UI",
+      "Implement BI tools and analytics"
+    ],
+    "description": "The platform that lets people build viral communities and followings around their opinions, beliefs, and ideas"
+  },
+  {
+    "id": "opinsy",
+    "organization": "Wushi Labs/Opinsy",
+    "url": "https://techcrunch.com/2012/10/16/opinsy-launches-into-public-beta-to-create-the-opinion-graph/",
+    "startDate": "Jun 2011",
+    "endDate": "Oct 2012",
+    "position": ["Software Engineer", "Platform Architect"],
+    "technologies": ["php", "javascript", "mysql", "aws", "memcached", "redis"],
+    "responsibilities": [
+      "Building application architecture",
+      "Business and Domain logic Implementation",
+      "Migrating virtual keyboard from Macromedia Flash to Vanilla JS",
+      "Front-end development and integration",
+      "Virtual Keyboard integration to MacOs, Win Vista, Moodle, Joomla websites"
+    ],
+    "description": "The platform that lets people build viral communities and followings around their opinions, beliefs, and ideas."
+  }
+]
