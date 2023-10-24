@@ -1,9 +1,6 @@
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/containers/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,jsx,ts,tsx,mdx}'
   ],
   theme: {
     extend: {
@@ -11,7 +8,11 @@ module.exports = {
         'nb-lavender': '#a388ee',
         'nb-paleviolet': '#D4A1ff',
         'nb-crystal': '#A7DBD8',
-        'nb-skyblue':'#87CEEB'
+        'nb-skyblue':'#87CEEB',
+        'nb-bittersweet': '#FF6B6B',
+        'nb-light-salmon': '#FFA07A',
+        'nb-light-green': '#90EE90',
+        'nb-dark-sea-green': '#7FBC8C',
       },
       animation: {
         marquee: 'marquee 5s linear infinite',
@@ -44,6 +45,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
-  purge: ['./src/**/*.{js,jsx,ts,tsx}']
+  plugins: []
 }
