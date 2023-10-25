@@ -62,7 +62,7 @@
       "Investigate and resolve performance and scalability issues",
       "Customer support/coaching"
     ],
-    "description": "Location tracking and intelligence as a service based on distributes serverless AWS architecture"
+    "description": "Location tracking and intelligence as a service based on distributed serverless AWS architecture"
   },
   {
     "id": "simplelife",
@@ -233,6 +233,39 @@
     "description": ""
   },
   {
+    "id": "decus",
+    "organization": "decus.agency",
+    "url": "",
+    "startDate": "Jun 2012",
+    "endDate": "Sep 2013",
+    "position": ["Software Engineer", "Platform Architect"],
+    "technologies": ["php", "kohanaphp", "mysql", "javascript", "aws", "ansible", "redis"],
+    "responsibilities": [
+      "Building application architecture",
+      "Business and Domain logic Implementation",
+      "Build, Deploy and Release Engineering",
+      "Front-end Development and Integration"
+    ],
+    "description": "Provide engineering and consulting service for various projects - restaurants, mobile games, finances, CRM/ERP, and others. The main project - No.1 place for everything about poker tournaments. Find detailed info on local and international events. Qualify for major tournaments online"
+  },
+  {
+    "id": "opinsy",
+    "organization": "Wushi Labs/Opinsy",
+    "url": "https://techcrunch.com/2012/10/16/opinsy-launches-into-public-beta-to-create-the-opinion-graph/",
+    "startDate": "Jun 2011",
+    "endDate": "Oct 2012",
+    "position": ["Software Engineer", "Platform Architect"],
+    "technologies": ["php", "javascript", "mysql", "aws", "memcached", "redis"],
+    "responsibilities": [
+      "Building application architecture",
+      "Business and Domain logic Implementation",
+      "Migrating virtual keyboard from Macromedia Flash to Vanilla JS",
+      "Front-end development and integration",
+      "Virtual Keyboard integration to MacOs, Win Vista, Moodle, Joomla websites"
+    ],
+    "description": "The platform that lets people build viral communities and followings around their opinions, beliefs, and ideas."
+  },
+  {
     "id": "intellimedia",
     "organization": "Intellimedia, Inc",
     "url": "https://www.intellimedia.ca/",
@@ -258,22 +291,5 @@
       "Implement BI tools and analytics"
     ],
     "description": "The platform that lets people build viral communities and followings around their opinions, beliefs, and ideas"
-  },
-  {
-    "id": "opinsy",
-    "organization": "Wushi Labs/Opinsy",
-    "url": "https://techcrunch.com/2012/10/16/opinsy-launches-into-public-beta-to-create-the-opinion-graph/",
-    "startDate": "Jun 2011",
-    "endDate": "Oct 2012",
-    "position": ["Software Engineer", "Platform Architect"],
-    "technologies": ["php", "javascript", "mysql", "aws", "memcached", "redis"],
-    "responsibilities": [
-      "Building application architecture",
-      "Business and Domain logic Implementation",
-      "Migrating virtual keyboard from Macromedia Flash to Vanilla JS",
-      "Front-end development and integration",
-      "Virtual Keyboard integration to MacOs, Win Vista, Moodle, Joomla websites"
-    ],
-    "description": "The platform that lets people build viral communities and followings around their opinions, beliefs, and ideas."
   }
 ]

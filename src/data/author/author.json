@@ -113,5 +113,14 @@
       "issuerUrl": "https://www.mongodb.com/",
       "date": "Jan 2014"
     }
+  ],
+  "hobbies": [
+    "music",
+    "drums",
+    "robotics",
+    "digital marketing",
+    "space and astronomy",
+    "canoeing",
+    "photography"
   ]
 }
