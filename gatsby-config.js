@@ -67,18 +67,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: 'techbio',
-        path: `${__dirname}/src/data/techbio/`,
-        ignore: ['**/.*'],
-        fastHash: true,
-      },
-      __key: 'techbio',
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: 'projects',
-        path: `${__dirname}/src/data/projects/`,
+        name: 'career',
+        path: `${__dirname}/src/data/career/`,
         ignore: ['**/.*'],
         fastHash: true,
       },
