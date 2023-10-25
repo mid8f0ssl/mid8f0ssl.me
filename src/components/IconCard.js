@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const IconCard = ({ title, iconComponent, to, colorClass, children }) => {
   return (
     <figure
-      className={`w-[250px] overflow-hidden rounded-md border-2 border-black font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${colorClass}`}
+      className={`w-[250px] overflow-hidden rounded-md border-2 border-black font-bold shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] ${colorClass} transition hover:shadow-none`}
     >
       <Link
         to={to}
