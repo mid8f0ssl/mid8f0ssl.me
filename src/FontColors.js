@@ -7,4 +7,8 @@ export const regularTextColors = [
   'text-pink-800',
   'text-sky-800',
   'text-rose-800',
+  'text-blue-800',
+  'text-rose-800',
+  'text-orange-800',
+  'text-teal-800',
 ]
